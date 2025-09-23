@@ -1,0 +1,64 @@
+{
+  "expo": {
+    "name": "bbbmobile",
+    "slug": "bbbmobile",
+    "owner": "mconf",
+    "scheme": "bigbluebutton",
+    "version": "1.0.0",
+    "newArchEnabled": false,
+    "orientation": "default",
+    "icon": "./src/assets/native/icon.png",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#06172A",
+    "splash": {
+      "image": "./src/assets/native/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#06172A"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "usesIcloudStorage": true,
+      "bitcode": false,
+      "bundleIdentifier": "org.bbb.mobilesdk"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/native/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "permissions": [
+        "android.permission.ACCESS_NETWORK_STATE",
+        "android.permission.BLUETOOTH",
+        "android.permission.CAMERA",
+        "android.permission.CHANGE_NETWORK_STATE",
+        "android.permission.INTERNET",
+        "android.permission.MODIFY_AUDIO_SETTINGS",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.SYSTEM_ALERT_WINDOW",
+        "android.permission.WAKE_LOCK",
+        "android.permission.FOREGROUND_SERVICE",
+        "android.permission.BLUETOOTH_ADMIN",
+        "android.permission.BLUETOOTH_CONNECT"
+      ],
+      "package": "org.bbb.mobilesdk"
+    },
+    "plugins": [
+      "@config-plugins/react-native-webrtc",
+      "expo-secure-store"
+    ],
+    "web": {
+      "favicon": "./src/assets/native/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "144b9892-f6ac-4cac-a334-27c560457569"
+      }
+    }
+  }
+}

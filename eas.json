@@ -1,0 +1,20 @@
+{
+  "cli": {
+    "version": ">=3.8.1",
+    "promptToConfigurePushNotifications": false
+  },
+  "build": {
+    "development": {
+      "ios": {
+        "buildConfiguration": "Release"
+      },
+      "android": {
+        "buildType": "apk",
+        "distribution": "internal"
+      },
+      "env": {
+        "APP_ENV": "development"
+      }
+    }
+  }
+}
