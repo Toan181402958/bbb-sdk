@@ -6,7 +6,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mconf/bbb-mobile-sdk.git"
+    "url": "git+https://github.com/Toan181402958/bbb-sdk.git"
   },
   "scripts": {
     "start": "expo start --dev-client",
