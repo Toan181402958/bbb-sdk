@@ -102,5 +102,8 @@
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
     "typescript": "~5.8.3"
+  },
+  "peerDependencies": {
+    "react-native": "0.79.4"
   }
 }
